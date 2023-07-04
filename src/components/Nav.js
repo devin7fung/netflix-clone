@@ -24,16 +24,16 @@ function Nav() {
     <div className={`nav ${show && "nav__black"}`}>
       <div className="nav__contents">
         <img
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/netflix-clone/")}
           className="nav__logo"
-          src="/imgs/netflixlogo1.png"
+          src="/netflix-clone/imgs/netflixlogo1.png"
           alt=""
         />
 
         <img
-          onClick={() => navigate("/profile")}
+          onClick={() => navigate("/netflix-clone/profile")}
           className="nav__avatar"
-          src="/imgs/netflixavatar.png"
+          src="/netflix-clone/imgs/netflixavatar.png"
           alt=""
         ></img>
       </div>

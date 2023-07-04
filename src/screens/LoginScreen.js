@@ -11,7 +11,7 @@ function LoginScreen() {
       <div className="loginScreen__background">
         <img
           className="loginScreen__logo"
-          src="/imgs/giantnetflixlogo.png"
+          src="/netflix-clone/imgs/giantnetflixlogo.png"
           alt=""
         />
         <button className="loginScreen__button" onClick={() => setSignIn(true)}>
